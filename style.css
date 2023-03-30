@@ -1,0 +1,24 @@
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    
+    border: 2px solid black;
+    width: 960px;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.square {
+    flex: 1;
+}
+
+.hover {
+    background-color: red;
+    flex: 1;
+}
